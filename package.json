@@ -1,0 +1,22 @@
+{
+  "name": "apitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^0.12.0 || ^0.13.0 || ^14.0.0",
+    "nodemon": "^3.0.1",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.33.0"
+  }
+}
