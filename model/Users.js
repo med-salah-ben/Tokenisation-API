@@ -28,6 +28,9 @@ const UsersSchema = sq.define("Users", {
 
   tokens:{
     type :DataTypes.ARRAY(DataTypes.INTEGER),
+  },
+  role:{
+    type: DataTypes.STRING,
   }
 
   // employed: {

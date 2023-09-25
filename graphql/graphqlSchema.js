@@ -4,7 +4,6 @@ const {
   GraphQLList,
   GraphQLString,
   GraphQLID,
-  GraphQLFloat,
   GraphQLInt,
   GraphQLBoolean,
 } = require("graphql");
